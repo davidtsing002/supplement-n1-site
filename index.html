@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>验真派 · 不卖产品，只验证你有没有用</title>
-  <meta name="description" content="验真派是保健品的买方代理人。我们用 N-of-1 个人盲法试验，在 6 周内告诉你一款补剂到底对你有没有用。绝不卖产品，绝不抽佣。" />
-  <meta property="og:title" content="验真派 · 不卖产品，只验证你有没有用" />
-  <meta property="og:description" content="买方代理人。N-of-1 个人盲法验证，剥离安慰剂效应，给你自己的科学答案。" />
+  <title>验真派 · 你手里的补剂，到底有没有用？</title>
+  <meta name="description" content="验真派用 6 周个人盲法实验，告诉你一款保健品到底对你有没有用。我们不卖任何产品，所以你没有理由怀疑我们的答案。" />
+  <meta property="og:title" content="验真派 · 你手里的补剂，到底有没有用？" />
+  <meta property="og:description" content="6 周盲法实验，剥离安慰剂效应，给你自己的科学答案。不卖产品，所以不忽悠你。" />
   <meta property="og:type" content="website" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d9488'/%3E%3Ctext x='32' y='44' font-size='38' font-family='PingFang SC,Microsoft YaHei,sans-serif' font-weight='700' fill='white' text-anchor='middle'%3E验%3C/text%3E%3C/svg%3E" />
   <link rel="stylesheet" href="styles.css" />
@@ -18,15 +18,13 @@
       <a class="brand" href="#top" aria-label="验真派首页">
         <span class="brand-mark">验</span>
         <span class="brand-name">验真派</span>
-        <span class="brand-tag">买方代理人</span>
       </a>
       <nav class="nav-links" id="navLinks">
-        <a href="#principle">理念</a>
+        <a href="#scenes">你中招没</a>
         <a href="#how">怎么验证</a>
-        <a href="#science">科学</a>
-        <a href="#moat">壁垒</a>
-        <a href="#pilot">试运营</a>
-        <a class="btn btn-primary nav-cta" href="#pilot">申请内测</a>
+        <a href="#proof">真实案例</a>
+        <a href="#faq">常见问题</a>
+        <a class="btn btn-primary nav-cta" href="#pilot">免费申请内测</a>
       </nav>
       <button class="nav-toggle" id="navToggle" aria-label="菜单">☰</button>
     </div>
@@ -36,175 +34,229 @@
   <section class="hero" id="top">
     <div class="hero-bg" aria-hidden="true"></div>
     <div class="container hero-inner">
-      <p class="eyebrow reveal">买方代理人 · 不卖产品，只验证</p>
-      <h1 class="reveal">你吃的补剂，<br />可能只是安慰剂</h1>
+      <p class="eyebrow reveal">不卖产品 · 只验证你有没有用</p>
+      <h1 class="reveal">你手里那瓶补剂，<br />到底有没有用？</h1>
       <p class="lede reveal">
-        验真派用 <strong>N-of-1 个人盲法试验</strong>，在 6 周内告诉你：这款产品，到底<strong>对你</strong>有没有用。
-        我们不卖任何保健品，所以你不需要怀疑我们的动机。
+        验真派用 <strong>6 周个人盲法实验</strong>，告诉你它<strong>对你</strong>有没有用。
+        我们<strong>不卖任何保健品</strong>——所以你没有理由怀疑我们的答案。
       </p>
       <div class="hero-cta reveal">
-        <a class="btn btn-primary btn-lg" href="#pilot">申请内测</a>
-        <a class="btn btn-ghost btn-lg" href="https://github.com/davidtsing002/supplement-n1" target="_blank" rel="noopener">查看验证平台 ↗</a>
+        <a class="btn btn-primary btn-lg" href="#pilot">免费申请内测</a>
+        <a class="btn btn-ghost btn-lg" href="#how">看看怎么验证</a>
       </div>
       <ul class="hero-stats reveal">
-        <li><span class="hs-num">盲法</span><span class="hs-label">真盲法，密钥我们保管</span></li>
-        <li><span class="hs-num">利益隔离</span><span class="hs-label">不卖不抽，信任前提</span></li>
-        <li><span class="hs-num">个人即答案</span><span class="hs-label">先对你自己有价值</span></li>
+        <li><span class="hs-num">真盲法</span><span class="hs-label">密钥我们保管，你不知情</span></li>
+        <li><span class="hs-num">每天 30 秒</span><span class="hs-label">其余数据手表自动拉</span></li>
+        <li><span class="hs-num">6 周</span><span class="hs-label">拿到属于你的答案</span></li>
       </ul>
     </div>
   </section>
 
-  <!-- PROBLEM -->
-  <section class="section" id="problem">
+  <!-- SCENES —— 痛点场景 -->
+  <section class="section" id="scenes">
     <div class="container">
-      <h2 class="section-title reveal">保健品行业，最大的问题是「你不知道对自己有没有用」</h2>
+      <p class="eyebrow reveal">先问问自己</p>
+      <h2 class="section-title reveal">你有没有过这种经历？</h2>
       <div class="card-grid three">
-        <article class="card reveal">
-          <div class="card-icon">📣</div>
-          <h3>广告只会说有效</h3>
-          <p>品牌方收钱做研究，结论天然偏向卖家。「谁付钱谁说话」，你看到的证据从出生就带着立场。</p>
+        <article class="card scene reveal">
+          <div class="scene-emoji">😴</div>
+          <h3>失眠的你</h3>
+          <p>花几百块买了褪黑素，吃了好像睡得好点……可一停又睡不着。到底是药有用，还是你<em>「以为」</em>有用？</p>
         </article>
-        <article class="card reveal">
-          <div class="card-icon">🧠</div>
-          <h3>安慰剂效应高达 30–50%</h3>
-          <p>你「觉得有效」，可能只是心理作用。没有对照，你永远分不清是补剂在起作用，还是你的期待。</p>
+        <article class="card scene reveal">
+          <div class="scene-emoji">🩸</div>
+          <h3>想控糖的你</h3>
+          <p>跟风买了「小绿盒」，朋友圈都说神。可你的血糖仪数据没怎么变——是没用，还是你吃得不对？</p>
         </article>
-        <article class="card reveal">
-          <div class="card-icon">📉</div>
-          <h3>平均有效率对你没意义</h3>
-          <p>缺铁的人才需要铁，不缺的人吃了无效——一平均全废。人群均值回答不了「对我有没有用」。</p>
+        <article class="card scene reveal">
+          <div class="scene-emoji">💊</div>
+          <h3>养生的你</h3>
+          <p>益生菌、鱼油、维生素，瓶瓶罐罐每个月好几百。真有用的到底有几个？你其实<em>并不知道</em>。</p>
         </article>
       </div>
-    </div>
-  </section>
-
-  <!-- PRINCIPLE -->
-  <section class="section section-alt" id="principle">
-    <div class="container">
-      <p class="eyebrow reveal">我们的铁律</p>
-      <h2 class="section-title reveal">绝不卖产品，绝不抽佣</h2>
-      <p class="statement reveal">
-        只要开始卖产品，信任基础就崩了。<br />
-        所以我们从第一天起，就把自己锁死在「不赚产品钱」的位置上。
-      </p>
-      <div class="compare reveal">
-        <div class="compare-col">
-          <h4>他们的利益立场</h4>
-          <ul>
-            <li><span class="who">精准营养公司</span>卖自己的定制产品</li>
-            <li><span class="who">品牌方</span>证明自己的产品有效</li>
-            <li><span class="who">传统 CRO</span>收品牌方钱做研究</li>
-          </ul>
-        </div>
-        <div class="compare-col accent">
-          <h4>验真派</h4>
-          <ul>
-            <li><span class="who">只验证</span>不卖任何产品，不收品牌钱做「证明有效」</li>
-            <li class="trust-line">消费者潜意识：「你没东西要卖我，我信你。」</li>
-          </ul>
-        </div>
-      </div>
-      <p class="note reveal">
-        这种「买方代理人」定位一旦建立，就是<strong>信任垄断</strong>——竞品无法通过学习或砸钱获得，因为他们只要开始卖产品，信任基础就崩了。
+      <p class="scenes-note reveal">
+        你不是一个人。绝大多数人，都在<strong>「凭感觉」</strong>吃补剂——
+        觉得有效，可能只是安慰剂效应；觉得没效，又怕是自己没坚持。
+        <strong>验真派就是来终结这种糊涂账的。</strong>
       </p>
     </div>
   </section>
 
   <!-- HOW IT WORKS -->
-  <section class="section" id="how">
+  <section class="section section-alt" id="how">
     <div class="container">
       <p class="eyebrow reveal">怎么验证</p>
-      <h2 class="section-title reveal">一次验证，6 周，盲法，给你自己的答案</h2>
+      <h2 class="section-title reveal">一次验证，6 周，轻松完成</h2>
+      <p class="how-sub reveal">不用跑医院，不用记日记。你只要：戴好你的手表，每天花 30 秒滑一下评分。</p>
       <div class="timeline">
         <div class="tl-item reveal">
           <div class="tl-week">第 1 周</div>
           <div class="tl-body">
-            <h4>基线期 · run-in</h4>
-            <p>不服产品，用手表 / CGM 建立你的基线数据，同时自动完成分型——<em>这一段既产出个人基线，也产出跨人分层。</em></p>
+            <h4>建立你的基线</h4>
+            <p>不服产品，正常过日子。我们直接从你的手表 / 血糖仪读取「平时的你」——这一步既是你的个人基准，也顺带完成人群分型。</p>
           </div>
         </div>
         <div class="tl-item reveal">
           <div class="tl-week">第 2–3 周</div>
           <div class="tl-body">
-            <h4>活性期</h4>
-            <p>服用活性胶囊。每日一次滑动评分，其余指标自动从可穿戴设备拉取。</p>
+            <h4>吃第一瓶</h4>
+            <p>吃我们寄来的<strong>盲法套装</strong>里的一瓶。两瓶外观一模一样，你不知道哪瓶有药。</p>
           </div>
         </div>
         <div class="tl-item reveal">
           <div class="tl-week">第 4–5 周</div>
           <div class="tl-body">
-            <h4>安慰剂期</h4>
-            <p>服用<strong>外观一致、你不知情</strong>的安慰剂。哪瓶是活性？密钥只有我们持有。</p>
+            <h4>换第二瓶</h4>
+            <p>换成另一瓶（一瓶活性、一瓶安慰剂，顺序随机）。每天 30 秒滑一下评分，剩下的指标手表自动记。</p>
           </div>
         </div>
         <div class="tl-item reveal">
           <div class="tl-week">第 6 周</div>
           <div class="tl-body">
-            <h4>洗脱 + 揭盲</h4>
-            <p>停药一周后生成你的个人报告：活性期 vs 安慰剂期的<strong>真实差值</strong>，以及结论。</p>
+            <h4>揭盲 · 看答案</h4>
+            <p>拿到你的个人报告：<strong>活性期 vs 安慰剂期，真实差值是多少</strong>，结论一句话讲清。</p>
           </div>
         </div>
       </div>
-      <p class="note reveal">
-        <strong>盲法在呈现层，不需要品牌配合。</strong>我们发两瓶外观一致的 opaque 瓶子（一瓶活性＋一瓶惰性安慰剂），你不知道哪瓶是哪瓶，密钥由我们保管——绕开了「谈品牌合作」这个慢环节，MVP 就能真盲。
-      </p>
+      <div class="how-highlight reveal">
+        <span class="hl-icon">🎯</span>
+        <p>关键点：<strong>没有盲法，你就永远分不清「真有效」还是「心理作用」。</strong>这正是市面上普通测评做不到、而验真派坚持做的底线。</p>
+      </div>
     </div>
   </section>
 
-  <!-- SCIENCE -->
-  <section class="section section-alt" id="science">
+  <!-- WHY TRUST US -->
+  <section class="section" id="why">
     <div class="container">
-      <p class="eyebrow reveal">科学</p>
-      <h2 class="section-title reveal">让「对我有没有用」成为可回答的科学问题</h2>
-      <div class="card-grid two">
+      <p class="eyebrow reveal">为什么敢信我们</p>
+      <h2 class="section-title reveal">我们不卖产品，所以没理由骗你</h2>
+      <div class="card-grid three">
         <article class="card reveal">
-          <h3>剥离安慰剂效应</h3>
-          <p>真盲法下，活性期与安慰剂期的差值，才是真实疗效。开放标签分不出安慰剂 vs 真效——所以盲法是底线，不是锦上添花。</p>
+          <div class="card-icon">🚫</div>
+          <h3>真的不卖货</h3>
+          <p>市面上的「测评」大多收品牌钱做「证明有效」的研究。验真派不卖、不抽佣——我们没有任何立场让你买某样东西。</p>
         </article>
         <article class="card reveal">
-          <h3>基线分型</h3>
-          <p>用 run-in 期设备数据自动分型（如深睡占比、CGM 的 TIR）。跨人比较不再退化为「平均有效率」，相似的人才比相似的人。</p>
+          <div class="card-icon">🔒</div>
+          <h3>真盲法，不是嘴上说说</h3>
+          <p>外观一样的瓶子，你不知道哪瓶有药，密钥只有我们持有。没有盲法，「觉得有效」就永远可能是心理作用。</p>
         </article>
         <article class="card reveal">
-          <h3>群体证据网络</h3>
-          <p>每个人的验证链脱敏聚合，形成「人群 × 产品 × 剂量 × 周期 × 基线」的有效性分布。相似人群越多，给你的参考越准。</p>
-        </article>
-        <article class="card reveal">
-          <h3>脱敏纵向数据资产</h3>
-          <p>10 万人的验证链是专有资产，别人拿不到。方法可以开源、引擎可以抄，但数据资产抄不走——这是壁垒，不是口号。</p>
+          <div class="card-icon">🛡️</div>
+          <h3>数据是你的</h3>
+          <p>所有数据脱敏、可随时撤回，你的个人报告<strong>永远免费给你看</strong>。我们靠验证本身赚钱，不靠卖你的信息。</p>
         </article>
       </div>
     </div>
   </section>
 
-  <!-- MOAT -->
-  <section class="section" id="moat">
+  <!-- PROOF —— 真实案例（核心说服力） -->
+  <section class="section section-alt" id="proof">
     <div class="container">
-      <p class="eyebrow reveal">壁垒</p>
-      <h2 class="section-title reveal">我们的护城河，在更深处</h2>
-      <div class="card-grid two">
-        <article class="card reveal card-moat">
-          <span class="moat-rank">最强</span>
-          <h3>利益隔离的信任垄断</h3>
-          <p>不卖不抽的定位一旦建立，竞品无法复制——因为他们只要开始卖，信任就归零。这是最难被抄的真壁垒。</p>
+      <p class="eyebrow reveal">看看别人验证了什么</p>
+      <h2 class="section-title reveal">两种结局，我们都如实告诉你</h2>
+      <p class="proof-sub reveal">下面是真实的报告形态（数据为演示示例）。有效，我们明说；无效，我们也公开——因为不卖货，才敢说真话。</p>
+
+      <div class="proof-grid">
+        <!-- 案例 A：有效 -->
+        <article class="report reveal">
+          <div class="report-head">
+            <span class="report-tag ok">✓ 对他真实有效</span>
+            <div class="report-who">小王 · 32 岁 · 某品牌褪黑素 3mg</div>
+          </div>
+          <div class="metric">
+            <div class="metric-name">深睡时长（对比基线）</div>
+            <div class="bar-row">
+              <span class="bar-label">活性期</span>
+              <div class="bar-track"><div class="bar-fill ok" style="--w:88%"></div><span class="bar-val">+22 分钟</span></div>
+            </div>
+            <div class="bar-row">
+              <span class="bar-label">安慰剂</span>
+              <div class="bar-track"><div class="bar-fill no" style="--w:14%"></div><span class="bar-val">+3 分钟</span></div>
+            </div>
+          </div>
+          <div class="metric">
+            <div class="metric-name">主观睡眠评分（满分 10）</div>
+            <div class="bar-row">
+              <span class="bar-label">活性期</span>
+              <div class="bar-track"><div class="bar-fill ok" style="--w:78%"></div><span class="bar-val">7.8</span></div>
+            </div>
+            <div class="bar-row">
+              <span class="bar-label">安慰剂</span>
+              <div class="bar-track"><div class="bar-fill no" style="--w:59%"></div><span class="bar-val">5.9</span></div>
+            </div>
+          </div>
+          <p class="report-conclusion ok">结论：活性期明显优于安慰剂，对他<strong>真实有效</strong>，值得继续吃。</p>
         </article>
-        <article class="card reveal">
-          <h3>群体证据网络的网络效应</h3>
-          <p>数据网络效应：用的人越多，给你的参考越准；越准，越多人来用。和 Waze、Credit Karma 同理。</p>
-        </article>
-        <article class="card reveal">
-          <h3>补充剂「征信局」的标准制定者</h3>
-          <p>开源方法论、定义「可比单元」与评级口径，让消费者与品牌都认这个标准——标准比网络更难被颠覆。</p>
-        </article>
-        <article class="card reveal">
-          <h3>行为改变的心智占领</h3>
-          <p>当用户养成「买保健品前先来验真派验证」的习惯，你成了品类的决策入口。不是功能优势，是习惯优势。</p>
+
+        <!-- 案例 B：无效 -->
+        <article class="report reveal">
+          <div class="report-head">
+            <span class="report-tag bad">✕ 对他基本无效</span>
+            <div class="report-who">小李 · 28 岁 · 某网红益生菌</div>
+          </div>
+          <div class="metric">
+            <div class="metric-name">腹胀改善评分（满分 10）</div>
+            <div class="bar-row">
+              <span class="bar-label">活性期</span>
+              <div class="bar-track"><div class="bar-fill ok" style="--w:41%"></div><span class="bar-val">4.1</span></div>
+            </div>
+            <div class="bar-row">
+              <span class="bar-label">安慰剂</span>
+              <div class="bar-track"><div class="bar-fill no" style="--w:40%"></div><span class="bar-val">4.0</span></div>
+            </div>
+          </div>
+          <div class="metric">
+            <div class="metric-name">排便规律评分（满分 10）</div>
+            <div class="bar-row">
+              <span class="bar-label">活性期</span>
+              <div class="bar-track"><div class="bar-fill ok" style="--w:55%"></div><span class="bar-val">5.5</span></div>
+            </div>
+            <div class="bar-row">
+              <span class="bar-label">安慰剂</span>
+              <div class="bar-track"><div class="bar-fill no" style="--w:53%"></div><span class="bar-val">5.3</span></div>
+            </div>
+          </div>
+          <p class="report-conclusion bad">结论：活性期与安慰剂几乎无差，对他<strong>基本无效</strong>。一年可省约 <strong>¥1200</strong>。</p>
         </article>
       </div>
-      <p class="note reveal">
-        诚实地说：在达到临界点之前，你没有任何壁垒——方法论公开、技术可抄、网络为零、信任未建。这段时间最危险。
-        所以验真派先让<strong>单个人的 N-of-1 结果对他自己就有价值</strong>，用个人价值穿越死亡谷，而不是靠网络。
-      </p>
+      <p class="proof-note reveal">※ 示例数据用于演示报告形态，非真实用户。正式报告将基于你自己的可穿戴数据生成。</p>
+    </div>
+  </section>
+
+  <!-- VALUE —— 值不值 -->
+  <section class="section" id="value">
+    <div class="container value-grid">
+      <div class="value-copy reveal">
+        <p class="eyebrow">值不值</p>
+        <h2 class="section-title">一次验证，可能帮你省下一年的冤枉钱</h2>
+        <p class="value-text">
+          算笔账：如果你一年在补剂上花 <strong>¥2000</strong>，其中可能有一半是「安慰剂效应」或「根本不适合你」。
+          一次验证只要 <strong>¥199</strong>，帮你把那部分「可能没用」的找出来——
+          要么确认值得继续，要么果断停掉、把钱省下来。
+        </p>
+        <ul class="value-points">
+          <li>确认有效 → 安心吃，不再犹豫</li>
+          <li>确认无效 → 一年省下几百到上千</li>
+          <li>所有数据归你，随时可撤回</li>
+        </ul>
+      </div>
+      <div class="value-calc reveal">
+        <div class="calc-row">
+          <span>你一年花在补剂上</span>
+          <strong>¥2000</strong>
+        </div>
+        <div class="calc-row muted">
+          <span>其中可能没用的部分</span>
+          <strong>≈ ¥1000</strong>
+        </div>
+        <div class="calc-divider"></div>
+        <div class="calc-row">
+          <span>一次验真派验证</span>
+          <strong class="accent">¥199</strong>
+        </div>
+        <div class="calc-foot">花 ¥199，换一个确定性答案</div>
+      </div>
     </div>
   </section>
 
@@ -215,17 +267,14 @@
         <p class="eyebrow reveal">试运营已开放</p>
         <h2 class="section-title reveal">睡眠 · 代谢，两个类目先跑通</h2>
         <p class="reveal">
-          我们用人工 concierge 方式，为前 100–200 位种子用户免费 / 低成本跑通盲法 N-of-1。
+          我们用人工 concierge 方式，为前 100–200 位种子用户<strong>免费 / 低成本</strong>跑通盲法验证。
           你付出的不是钱，是 6 周的认真记录。
         </p>
         <ul class="pilot-points reveal">
-          <li>盲法胶囊套装（密钥我们保管）</li>
-          <li>每周进度反馈，对抗脱落</li>
+          <li>免费领取盲法胶囊套装（密钥我们保管）</li>
+          <li>每周进度反馈，陪你跑完不脱落</li>
           <li>6 周后拿到属于你自己的揭盲报告</li>
         </ul>
-        <p class="reveal pilot-alt">
-          想直接上手？<a href="https://github.com/davidtsing002/supplement-n1" target="_blank" rel="noopener">打开验证平台（开源内测）↗</a>
-        </p>
       </div>
       <form class="pilot-form reveal" id="waitlistForm" novalidate>
         <h3>申请成为种子用户</h3>
@@ -260,24 +309,24 @@
       <h2 class="section-title reveal">常见问题</h2>
       <div class="faq-list">
         <details class="faq reveal">
-          <summary>验真派会卖产品吗？</summary>
-          <p>不会。绝不卖产品、绝不抽佣是我们的铁律，也是信任的前提。一旦破例，整个信任基础就崩了。</p>
+          <summary>验真派会卖产品给我吗？</summary>
+          <p>不会。不卖产品、不抽佣是我们的底线，也是你敢信我们的原因。一旦开始卖，我们就和那些「测评」没区别了。</p>
         </details>
         <details class="faq reveal">
-          <summary>盲法真的可行吗？软糖饮品怎么办？</summary>
-          <p>胶囊 / 片剂用「统一容器自盲」即可真盲，密钥我们保管，不需要品牌配合。软糖、饮品无法盲法，我们只把它们标为「探索型 / 开放标签」，并<strong>隔离、不进评级网络</strong>，避免污染证据种子。</p>
+          <summary>盲法真的做得到吗？软糖饮品怎么办？</summary>
+          <p>胶囊 / 片剂用「统一容器自盲」就能真盲，密钥我们保管，不需要品牌配合。软糖、饮品没法盲法，我们只把它们标为「探索型」，并隔离、不进正式评级，避免污染证据。</p>
+        </details>
+        <details class="faq reveal">
+          <summary>每天要花很多时间记录吗？</summary>
+          <p>不用。每天只花约 30 秒滑一下评分，深睡、血糖这些指标直接从你的手表 / 血糖仪自动读取，不用你手动记。</p>
         </details>
         <details class="faq reveal">
           <summary>我的数据安全吗？</summary>
-          <p>数据脱敏、授权、可撤回，遵循 PIPL。个体层永远免费看自己的结果；群体网络只用脱敏聚合数据。</p>
-        </details>
-        <details class="faq reveal">
-          <summary>这和市面上的「测评」有什么不同？</summary>
-          <p>多数测评收品牌钱做「证明有效」的研究，立场天然偏向卖家。验真派不收品牌钱做证明，负面结果照常公开，合作一律标注「赞助」。</p>
+          <p>数据脱敏、授权、可随时撤回，遵循相关隐私法规。你的个人报告永远免费给你看；群体分析只用脱敏后的聚合数据。</p>
         </details>
         <details class="faq reveal">
           <summary>什么时候正式上线？</summary>
-          <p>试运营先验证脱落率、付费意愿与「wow 感」。数据达标后，我们再决定做 App、谈 B 端数据洞察、开源方法论 v0.1。</p>
+          <p>试运营先验证大家能不能跑完、愿不愿意付费。数据达标后，我们再决定做 App、接入更多类目。</p>
         </details>
       </div>
     </div>
@@ -290,17 +339,17 @@
         <span class="brand-mark">验</span>
         <div>
           <div class="brand-name">验真派</div>
-          <div class="footer-sub">买方代理人 · 不卖产品，只验证</div>
+          <div class="footer-sub">不卖产品 · 只验证你有没有用</div>
         </div>
       </div>
       <div class="footer-links">
-        <a href="https://github.com/davidtsing002/supplement-n1-site" target="_blank" rel="noopener">官网仓库</a>
-        <a href="https://github.com/davidtsing002/supplement-n1" target="_blank" rel="noopener">验证平台</a>
-        <a href="#pilot">申请内测</a>
+        <a href="#pilot">免费申请内测</a>
+        <a href="#how">怎么验证</a>
+        <a href="#faq">常见问题</a>
       </div>
     </div>
     <div class="footer-law">
-      <p class="creed">铁律：绝不卖产品 · 绝不抽佣 · 负面结果照常公开</p>
+      <p class="creed">底线：绝不卖产品 · 绝不抽佣 · 无效结果也如实公开</p>
       <p class="copyright">© 2026 验真派 Yanzhen Pai · 本网站不提供医疗建议，验证结果仅供参考</p>
     </div>
   </footer>
